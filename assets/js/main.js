@@ -28,7 +28,13 @@
     $('.body-bg').toggleClass('d-none');   
   }); 
 
+  $(".History__text a ").click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
 
+  });
 
   // page Animation
   AOS.init({
