@@ -1,0 +1,326 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root{
+
+        --f18 : 16px;
+        --f20 : 16px;
+        --f22 : 16px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 24px;
+        --f32 : 24px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+      
+      }
+      section.timeLine-area .circle-overly.right {
+        width: 200px;
+    }
+    
+    .timeLine-area .circle-overly.left {
+        width: 200px;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+
+        --f18 : 16px;
+        --f20 : 16px;
+        --f22 : 16px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 24px;
+        --f32 : 24px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+      
+      }
+    .blog__blk {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .blog__blk h4 {
+        margin-inline: auto;
+    }
+    
+    .blog__top {
+        margin-bottom: 50px;
+    }
+    
+    .service__content h1 {
+        font-size: 30px;
+        top: 5px;
+    }
+    
+    .service__content p {
+        font-size: 12px;
+        bottom: 12px;
+    }
+    
+    .History__content {
+        height: 400px;
+    }
+    
+    .History__text a {
+        font-size: var(--f20);
+        height: 44px;
+    }
+    
+    .History__text a img {
+        width: 10px;
+    }
+    
+    .History__text p {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    .History__text {
+        top: 48%;
+    }
+    
+    .History__content:before {
+        height: 140px;
+    }
+    
+    .History__bottom h3 {
+        font-size: 24px;
+    }
+    
+    .History__bottom a {
+        font-size: 24px;
+    }
+    .blog-area {
+        padding-bottom: 0;
+    }
+
+    .timeLine-area{overflow: hidden;}
+    section.timeLine-area .circle-overly.right {
+        width: 240px;
+    }
+    
+    .timeLine-area .circle-overly.left {
+        width: 200px;
+    }
+    .timeLine-content {
+        margin-left: 0;
+    }
+    
+    .timeLine-content.right {
+        margin-right: 0;
+    }
+    
+    .timeLine-img i.small-img {
+        max-width: 220px;
+    }
+    img.Dashed-Lines{display: none;}
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+
+        --f18 : 16px;
+        --f20 : 16px;
+        --f22 : 16px;
+        --f24 : 20px;
+        --f28 : 24px;
+        --f30 : 24px;
+        --f32 : 24px;
+        --f36 : 30px;
+        --f40 : 32px;
+        --f48 : 36px;
+      
+      }
+    .blog__blk {
+        padding: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .blog__blk h4 {
+        margin-inline: auto;
+        font-size: 18px;
+    }
+    
+    .blog__top {
+        margin-bottom: 50px;
+    }
+    
+    .service__content h1 {
+        font-size: 18px;
+        top: -3px;
+        letter-spacing: 1px;
+    }
+    
+    .service__content p {
+        font-size: 12px;
+        bottom: 12px;
+        position: unset;
+        text-align: center;
+        margin-top: 14px;
+    }
+    
+    .History__content {
+        height: 224px;
+    }
+    
+    .History__text a {
+        font-size: 12px;
+        height: 33px;
+        padding: 0 20px;
+        margin-bottom: 11px;
+        gap: 6px;
+    }
+    
+    .History__text a img {
+        width: 10px;
+    }
+    
+    .History__text p {
+        margin: 0;
+        font-size: 11px;
+        width: 100%;
+    }
+    
+    .History__text {
+        top: 39%;
+    }
+    
+    .History__content:before {
+        height: 110px;
+    }
+    
+    .History__bottom h3 {
+        font-size: 20px;
+    }
+    
+    .History__bottom a {
+        font-size: 18px;
+    }
+    .blog-area {
+        padding-bottom: 0;
+    }
+    video {
+        height: 100%;
+    }
+    
+    .cover-area {
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+    
+    .video__play-button {
+        font-size: 18px;
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+        max-width: 195px;
+        height: 50px;
+    }
+    
+    .service__content {
+        margin-top: 60px;
+        overflow: hidden;
+    }
+    
+    .svc__blk p {
+        max-width: 290px;
+    }
+    .service-area .circle-overly {
+        width: 300px;
+    }
+    .History-area {
+        padding: 70px 0;
+    }
+    .fixed__nav button span {
+        display: none;
+    }
+    
+    .fixed__nav {
+        min-width: auto;
+        background: no-repeat;
+        box-shadow: none;
+        top: 90px;
+        left: 20px;
+    }
+    .fixed__nav ul {
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    .ScrolltoTop {max-width: 33px;}
+    .blog__top h2 {
+        font-size: 20px;
+    }
+    .timeLine-area{overflow: hidden;}
+
+.timeLine-area .mb_150 {
+    margin-bottom: 50px;
+}
+    section.timeLine-area .circle-overly.right {
+        width: 224px;
+        height: 261px;
+        filter: blur(256px);
+    }
+    
+    .timeLine-area .circle-overly.left {
+        width: 200px;
+    }
+    .timeLine-content {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .timeLine-content.right {
+        margin-right: 0;
+    }
+    
+    .timeLine-img i.small-img {
+        max-width: 110px;
+        bottom: -34px;
+        right: -50px;
+    }
+
+.timeLine-img.right i.small-img {left: -53px;}
+    img.Dashed-Lines{display: none;}
+    .timeLine-content p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 12px;
+    }
+    
+    .timeLine-content h3 {
+        font-size: 16px;
+        padding: 0px 15px;
+        margin-bottom: 5px;
+    }
+    .timeLine-area .row {
+        margin-top: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0px;
+    }
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
