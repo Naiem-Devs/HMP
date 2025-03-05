@@ -707,7 +707,35 @@ video {
 
 
 /*============ Area Start =============*/
-.timeLine-area {padding: 50px 0;position: relative;}
+.timeLine-area {padding: 50px 0 50px;position: relative;overflow: hidden;z-index: 9;}
+
+.timeLine-PAGE {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background: #fff;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .3s;
+}
+
+img.body-pg-2 {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    z-index: -1;
+}
+
+.timeLine-PAGE img.body-bg.pg-2 {}
+
+.timeLine-PAGE.show {
+    z-index: 9;
+    opacity: 1;
+    top: 75px;
+    pointer-events: all;
+    position: absolute;
+}
 
 .timeLine-area .circle-overly.left {
     bottom: 10%;
@@ -723,7 +751,7 @@ img.Dashed-Lines {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 11%;
+    top: 12%;
     pointer-events: none;
 }
 
@@ -781,10 +809,28 @@ a.back-btn {
     text-align: right;
     margin-right: -30px;
 }
-.right {
+.tl-row-1{
+    margin-bottom: 120px;
 }
-.align-items-center {
+.tl-row-2{
+    margin-bottom: 70px;
 }
+.tl-row-3{
+    margin-bottom: 119px;
+}
+.tl-row-4{
+    margin-bottom: 137px;
+}
+.tl-row-5{
+    margin-bottom: 176px;
+}
+.tl-row-6{
+    margin-bottom: 170px;
+}
+.tl-row-7{
+    margin-bottom: 100px;
+}
+.tl-row-8{}
 /*============ Area End =============*/
 
 

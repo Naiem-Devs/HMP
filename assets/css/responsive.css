@@ -28,6 +28,20 @@
     .timeLine-area .circle-overly.left {
         width: 200px;
     }
+    .timeLine-content {
+        margin-left: 0;
+    }
+    
+    .timeLine-content.right {
+        margin-right: 0;
+    }
+    .timeLine-area .container {
+        max-width: 950px;
+    }
+    img.Dashed-Lines {
+        top: 11%;
+        max-width: 775px;
+    }
 }
 
  
@@ -128,6 +142,17 @@
         max-width: 220px;
     }
     img.Dashed-Lines{display: none;}
+    .tl-row-3 {
+        margin-bottom: 80px;
+    }
+    
+    .tl-row-5 {
+        margin-bottom: 150px;
+    }
+    
+    .tl-row-6 {
+        margin-bottom: 150px;
+    }
 }
 
  
@@ -312,10 +337,36 @@
         margin-bottom: 5px;
     }
     .timeLine-area .row {
-        margin-top: 0px;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 0px;
+        margin-bottom: 40px;
+    }
+
+a.back-btn {
+    margin-bottom: -100px;
+}
+
+.tl-row-6 {
+    padding-bottom: 50px;
+}
+
+.tl-row-5 {
+    padding-bottom: 50px;
+}
+
+.tl-row-4 {
+    padding-bottom: 50px;
+}
+
+.tl-row-1 {padding-bottom: 50px;}
+    .tl-row-3 {
+        margin-bottom: 80px;
+    }
+    
+    .tl-row-5 {
+        margin-bottom: 150px;
+    }
+    
+    .tl-row-6 {
+        margin-bottom: 150px;
     }
 }
  

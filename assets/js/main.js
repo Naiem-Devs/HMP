@@ -10,6 +10,26 @@
 
 
 
+ // menu 
+ $('.History__text a').click( function (event){ 
+    event.preventDefault()  
+    $('.timeLine-PAGE').toggleClass('show');   
+    $('.service-area').toggleClass('d-none');   
+    $('.blog-area').toggleClass('d-none');   
+    $('.fixed__nav').toggleClass('d-none');   
+    $('.body-bg').toggleClass('d-none');   
+  }); 
+ $('.back-btn').click( function (event){ 
+    event.preventDefault()  
+    $('.timeLine-PAGE').toggleClass('show');   
+    $('.service-area').toggleClass('d-none');   
+    $('.blog-area').toggleClass('d-none');     
+    $('.fixed__nav').toggleClass('d-none');   
+    $('.body-bg').toggleClass('d-none');   
+  }); 
+
+
+
   // page Animation
   AOS.init({
     mirror: true,
